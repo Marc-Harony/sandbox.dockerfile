@@ -18,4 +18,8 @@ This dockerfile aims to create an interactive docker sandbox with many useful to
 
 
 #Changelog
- - 1.0 - Starting from an ubuntu docker
+ - 1.0 - Starting from an ubuntu image
+ - 1.1 - Adding net-tools, iputils, wget and unzip.
+ - 1.3 - Adding vi and nano. 
+	 Adding zsh and oh-my-zsh. Default theme : p10k
+	 Run `p10k configure` to configure your terminal.
